@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	background-color: #fffdef;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: auto;
+    text-decoration: none;
+}
+
+.header, .mainBody {
+	padding: 2%;
+	text-align: center;
+}
+
+.header h1 {
+	color: #750000;
+	font-size: 47px;
+	font-family: 'Bitter', serif;
+	margin: 0px;
+}
+
+.header h2 {
+	margin: 5px;
+	color: #750000;
+	font-size: 33px;
+	font-family: 'Bitter', serif;
+}
+
+.header h3 {
+	margin: 0px;
+	color: #750000;
+	font-size: 28px;
+	font-family: 'Bitter', serif;
+}
+
+@media (max-width: 960px) {
+.header h1 {
+	font-size: 37px;
+}
+.header h2 {
+	font-size: 23px;
+}
+.header h3 {
+	font-size: 18px;
+}
+}
+@media (max-width: 768px) {
+.header h1 {
+	font-size: 30px;
+}
+}
+
+@media (max-width: 500px) {
+.header h1 {
+	font-size: 23px;
+}
+.header h2 {
+	font-size: 20px;
+}
+}
+
+.parallax{
+background:url(outside.JPG) 50% 0 no-repeat fixed;
+height: 300px;
+margin: 0 auto;
+    background-size: cover;
+padding: 40px 0 0 0;
+    background-position: left top;
+}
+
+.mainBody p{
+	max-width: 900px;
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mainBody h3 {
+	margin-top: 0;
+	color: #750000;
+	font-size: 32px;
+	font-family: 'Bitter', serif;
+}
+
+.mainBody h4 {
+	color: #750000;
+	font-size: 20px;
+	font-family: 'Bitter', serif;
+}
+
+.fa-file-pdf-o {
+	font-size: 100px !important;
+}
+
+.one-half {
+float:left;
+margin: 20px auto;
+position:relative;
+}
+
+.one-half {
+width: 50%;
+}
+
+.last-col {
+clear:right;
+margin-right:0;
+}
+
+@media (max-width: 45em) {
+  .one-half {
+    width: 100%;
+    clear: both;
+  }
+}
+
+.footer {
+  background-image:url(background.jpg);
+  margin: 0 auto;
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  text-align:center;
+}
+
+.footer p{
+	margin: 0;
+  padding-top: 13px;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer a {
+	color: #750000;
+}
