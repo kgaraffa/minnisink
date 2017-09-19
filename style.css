@@ -65,14 +65,7 @@ a:-webkit-any-link {
 }
 }
 
-.parallax{
-background:url(outside.JPG) 50% 0 no-repeat fixed;
-height: 300px;
-margin: 0 auto;
-    background-size: cover;
-padding: 40px 0 0 0;
-    background-position: left top;
-}
+
 
 .mainBody p{
 	max-width: 900px;
