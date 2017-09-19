@@ -65,7 +65,15 @@ a:-webkit-any-link {
 }
 }
 
+.image {
+	text-align: center;
+	margin: 0 auto;
+}
 
+.image img {
+	max-width: 600px;
+	width: 100%;
+}
 
 .mainBody p{
 	max-width: 900px;
