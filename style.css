@@ -82,8 +82,8 @@ a:-webkit-any-link {
 }
 
 .mainbody a {
-color: #750000;
-text-decoration: underline;
+color: #750000 !important;
+text-decoration: underline !important;
 }
 
 .mainBody h3 {
