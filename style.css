@@ -82,8 +82,9 @@ body {
 }
 
 .mainbody a {
-color: #750000 !important;
-text-decoration: underline !important;
+    color: #750000;
+    cursor: auto;
+    text-decoration: none;
 }
 
 .mainBody h3 {
