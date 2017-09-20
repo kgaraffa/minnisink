@@ -7,7 +7,7 @@ body {
 	background-color: #fffdef;
 }
 
-a:-webkit-any-link {
+a {
     color: inherit;
     cursor: auto;
     text-decoration: none;
