@@ -81,6 +81,11 @@ a:-webkit-any-link {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.mainbody a {
+color: #750000;
+text-decoration: underline;
+}
+
 .mainBody h3 {
 	margin-top: 0;
 	color: #750000;
