@@ -81,7 +81,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.mainbody a:-webkit-any-link {
+.mainBody a:-webkit-any-link {
     color: #750000;
     cursor: auto;
     text-decoration: none;
