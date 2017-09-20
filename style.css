@@ -7,7 +7,7 @@ body {
 	background-color: #fffdef;
 }
 
-a {
+.header a {
     color: inherit;
     cursor: auto;
     text-decoration: none;
@@ -143,5 +143,7 @@ margin-right:0;
 }
 
 .footer a {
-	color: #750000;
+color: #750000;
+cursor: auto;
+text-decoration: none;
 }
