@@ -84,7 +84,6 @@ body {
 .mainBody a:-webkit-any-link {
     color: #750000;
     cursor: auto;
-    text-decoration: underline;
 }
 
 .mainBody h3 {
