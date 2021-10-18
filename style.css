@@ -105,25 +105,11 @@ body {
 }
 
 .one-half {
-float:left;
-margin: 20px auto;
+margin: 10px auto 0;
 position:relative;
 }
-
-.one-half {
-width: 50%;
-}
-
-.last-col {
-clear:right;
-margin-right:0;
-}
-
-@media (max-width: 45em) {
-  .one-half {
-    width: 100%;
-    clear: both;
-  }
+.one-half h4 {
+    margin: 10px 0 0;
 }
 
 .footer {
