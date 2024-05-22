@@ -9,8 +9,12 @@ body {
 
 .header a {
     color: inherit;
-    cursor: auto;
+    cursor: pointer;
     text-decoration: none;
+}
+
+a {
+	cursor: pointer;
 }
 
 .header, .mainBody {
