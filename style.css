@@ -14,7 +14,8 @@ body {
 }
 
 a {
-	cursor: pointer;
+	cursor: pointer !important;
+	text-decoration: none !important;
 }
 
 .header, .mainBody {
